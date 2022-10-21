@@ -35,7 +35,7 @@ function Footer() {
         <FooterSubHeading>
           Join our exclusive recruitment agency to get the latest news of young players
         </FooterSubHeading>
-        <FooterSubText>You can unsubscribe at any time.</FooterSubText>
+        <FooterSubText>You can unsubscribe at any time</FooterSubText>
         <Form>
           <FormInput name='email' type='email' placeholder='Your Email' />
           <Button fontBig>Subscribe</Button>
