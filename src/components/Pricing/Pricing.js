@@ -38,7 +38,7 @@ function Pricing() {
                 <PricingCardFeatures>
                   <PricingCardFeature>100 New Users</PricingCardFeature>
                   <PricingCardFeature>$10,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Retargeting analytics</PricingCardFeature>
+                  <PricingCardFeature></PricingCardFeature>
                 </PricingCardFeatures>
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>
@@ -54,7 +54,7 @@ function Pricing() {
                 <PricingCardFeatures>
                   <PricingCardFeature>1000 New Users</PricingCardFeature>
                   <PricingCardFeature>$50,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Lead Gen Analytics</PricingCardFeature>
+                  <PricingCardFeature></PricingCardFeature>
                 </PricingCardFeatures>
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>

@@ -1,10 +1,10 @@
 import styled from 'styled-components';
-import { FaMagento } from 'react-icons/fa';
+import { FaResolving } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { Container } from '../../globalStyles';
 
 export const Nav = styled.nav`
-  background: #101522;
+  background: #6C63FF;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -33,7 +33,7 @@ export const NavLogo = styled(Link)`
   align-items: center;
 `;
 
-export const NavIcon = styled(FaMagento)`
+export const NavIcon = styled(FaResolving)`
   margin-right: 0.5rem;
 `;
 
@@ -76,7 +76,7 @@ export const NavItem = styled.li`
   border-bottom: 2px solid transparent;
 
   &:hover {
-    border-bottom: 2px solid #4b59f7;
+    border-bottom: 2px solid #6C63FF;
   }
 
   @media screen and (max-width: 960px) {
@@ -113,7 +113,7 @@ export const NavLinks = styled(Link)`
     display: table;
 
     &:hover {
-      color: #4b59f7;
+      color: #6C63FF;
       transition: all 0.3s ease;
     }
   }

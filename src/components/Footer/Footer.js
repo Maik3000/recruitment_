@@ -33,7 +33,7 @@ function Footer() {
     <FooterContainer>
       <FooterSubscription>
         <FooterSubHeading>
-          Join our exclusive membership to receive the latest news and trends
+          Join our exclusive recruitment agency to get the latest news of young players
         </FooterSubHeading>
         <FooterSubText>You can unsubscribe at any time.</FooterSubText>
         <Form>
@@ -67,32 +67,26 @@ function Footer() {
             <FooterLink to='/'>Agency</FooterLink>
             <FooterLink to='/'>Influencer</FooterLink>
           </FooterLinkItems>
-          <FooterLinkItems>
-            <FooterLinkTitle>Social Media</FooterLinkTitle>
-            <FooterLink to='/'>Instagram</FooterLink>
-            <FooterLink to='/'>Facebook</FooterLink>
-            <FooterLink to='/'>Youtube</FooterLink>
-            <FooterLink to='/'>Twitter</FooterLink>
-          </FooterLinkItems>
+  
         </FooterLinksWrapper>
       </FooterLinksContainer>
       <SocialMedia>
         <SocialMediaWrap>
           <SocialLogo to='/'>
             <SocialIcon />
-            ULTRA
+            Recruitment
           </SocialLogo>
-          <WebsiteRights>ULTRA © 2020</WebsiteRights>
+          <WebsiteRights>Recruitment © 2022</WebsiteRights>
           <SocialIcons>
-            <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+            <SocialIconLink href='//www.facebook.com' target='_blank' aria-label='Facebook'>
               <FaFacebook />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+            <SocialIconLink href='//www.instagram.com' target='_blank' aria-label='Instagram'>
               <FaInstagram />
             </SocialIconLink>
             <SocialIconLink
               href={
-                '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
+                '//www.youtube.com/watch?v=dB6MIyBJ9sc'
               }
               rel='noopener noreferrer'
               target='_blank'
@@ -100,10 +94,10 @@ function Footer() {
             >
               <FaYoutube />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
+            <SocialIconLink href='//www.twitter.com' target='_blank' aria-label='Twitter'>
               <FaTwitter />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'>
+            <SocialIconLink href='//www.linkedin.com' target='_blank' aria-label='LinkedIn'>
               <FaLinkedin />
             </SocialIconLink>
           </SocialIcons>
