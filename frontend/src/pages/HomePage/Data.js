@@ -42,7 +42,7 @@ export const homeObjThree = {
   headline:
     'Recruitment helped me to sign with Real Madrid and improve my talent. ',
   description:
-    "Their team is wonderful!",
+    "Their team is wonderful!.",
   buttonLabel: 'View Case Study',
   imgStart: 'start',
   img: require('../../images/profile.jpg'),
