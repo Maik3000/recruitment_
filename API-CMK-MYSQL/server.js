@@ -4,6 +4,13 @@ const myconn = require('express-myconnection')
 
 const app = express()
 app.set('port', process.env.PORT|| 8000)
+const dbOptions = {
+    host: 'localhost',
+    port: 3306,
+    user: 'root',
+    password: 'Lolipop1!',
+    database: 'players'
+}
 
 //middlewares-------------------------------------------
 app.use(myconn(mysql, dbOptions, 'single'))
