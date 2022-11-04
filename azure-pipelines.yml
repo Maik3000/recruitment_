@@ -8,7 +8,7 @@ trigger:
 
 pool:
   name: cmkAgent
-  demands: Agent.Name -equals OPI-Ubuntu1
+  demands: Agent.Name -equals DESKTOP-C2KHG8O
 
 
 steps:
