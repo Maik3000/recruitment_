@@ -1,9 +1,9 @@
 export const homeObjOne = {
-  primary: true,
-  lightBg: false,
-  lightTopLine: true,
-  lightText: true,
-  lightTextDesc: true,
+  primary: false,
+  lightBg: true,
+  lightTopLine: false,
+  lightText: false,
+  lightTextDesc: false,
   topLine: 'Recruitment Agency',
   headline: 'Lead Generation Specialist for Recruitment Players',
   description:
@@ -21,7 +21,7 @@ export const homeObjTwo = {
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  topLine: '*',
+  topLine: '',
   headline: '*',
   description:
     "*.",
@@ -33,16 +33,16 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-  primary: false,
-  lightBg: true,
-  lightTopLine: false,
-  lightText: false,
-  lightTextDesc: false,
+  primary: true,
+  lightBg: false,
+  lightTopLine: true,
+  lightText: true,
+  lightTextDesc: true,
   topLine: 'Vini Jr.',
   headline:
     'Recruitment helped me to sign with Real Madrid and improve my talent. ',
   description:
-    "Their team is wonderful!",
+    "Their team is wonderful!.",
   buttonLabel: 'View Case Study',
   imgStart: 'start',
   img: require('../../images/profile.jpg'),
@@ -56,10 +56,10 @@ export const homeObjFour = {
   lightTopLine: false,
   lightText: false,
   lightTextDesc: true,
-  topLine: '-',
-  headline: '-',
+  topLine: 'You can suscribe anytime',
+  headline: 'Subscribe to our site to get help with your player search. ',
   description:
-    '--',
+    'We will help you!',
   buttonLabel: 'Sign Up Now',
   imgStart: 'start',
   img: require('../../images/svg-2.svg'),
