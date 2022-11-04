@@ -4,13 +4,12 @@ export const homeObjOne = {
     lightTopLine: false,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Recruitment Agency',
-    headline: 'Lead Generation Specialist for Recruitment Players',
-    description:
-      'We help Futball Clubs to get data of young talents. Our team of unique specialist can help you achieve your business of the season.',
-    buttonLabel: 'Get Started',
+    topLine: 'Contact Us',
+    headline: 'If you have any questions, please do not hesitate to contact us.',
+    description:'Click on the button and you will be directed to whatsapp where you will talk to one of our associates.',
+    buttonLabel: 'Contact',
     imgStart: '',
-    img: require('../../images/haaland.png'),
+    img: require('../../images/whatsapp.png'),
     alt: 'Credit Card',
     start: ''
   };
