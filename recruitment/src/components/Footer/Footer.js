@@ -47,13 +47,12 @@ function Footer() {
             <FooterLinkTitle>About Us</FooterLinkTitle>
             <FooterLink to='/sign-up'>How it works</FooterLink>
             <FooterLink to='/'>Testimonials</FooterLink>
-            <FooterLink to='/'>Careers</FooterLink>
             <FooterLink to='/'>Investors</FooterLink>
             <FooterLink to='/'>Terms of Service</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Contact Us</FooterLinkTitle>
-            <FooterLink to='/'>Contact</FooterLink>
+            <FooterLink to='/Contact'>Contact Us</FooterLink>
             <FooterLink to='/'>Support</FooterLink>
             <FooterLink to='/'>Destinations</FooterLink>
             <FooterLink to='/'>Sponsorships</FooterLink>
