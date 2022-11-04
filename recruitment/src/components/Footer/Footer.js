@@ -50,21 +50,15 @@ function Footer() {
             <FooterLink to='/'>Investors</FooterLink>
             <FooterLink to='/'>Terms of Service</FooterLink>
           </FooterLinkItems>
-          <FooterLinkItems>
+
+        </FooterLinksWrapper>
+        <FooterLinksWrapper>
+        <FooterLinkItems>
             <FooterLinkTitle>Contact Us</FooterLinkTitle>
             <FooterLink to='/Contact'>Contact Us</FooterLink>
             <FooterLink to='/'>Support</FooterLink>
             <FooterLink to='/'>Destinations</FooterLink>
             <FooterLink to='/'>Sponsorships</FooterLink>
-          </FooterLinkItems>
-        </FooterLinksWrapper>
-        <FooterLinksWrapper>
-          <FooterLinkItems>
-            <FooterLinkTitle>Videos</FooterLinkTitle>
-            <FooterLink to='/'>Submit Video</FooterLink>
-            <FooterLink to='/'>Ambassadors</FooterLink>
-            <FooterLink to='/'>Agency</FooterLink>
-            <FooterLink to='/'>Influencer</FooterLink>
           </FooterLinkItems>
   
         </FooterLinksWrapper>
