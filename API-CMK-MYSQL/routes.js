@@ -5,7 +5,7 @@ routes.get('/', (req, res)=>{
     req.getConnection((err, conn)=>{
         if(err) return res.send(err)
 
-        conn.query('SELECT * FROM books', (err, rows)=>{
+        conn.query('SELECT * FROM laliga', (err, rows)=>{
             if(err) return res.send(err)
 
             res.json(rows)
@@ -16,10 +16,10 @@ routes.get('/', (req, res)=>{
 routes.post('/', (req, res)=>{
     req.getConnection((err, conn)=>{
         if(err) return res.send(err)
-        conn.query('INSERT INTO books set ?', [req.body], (err, rows)=>{
+        conn.query('INSERT INTO laliga set ?', [req.body], (err, rows)=>{
             if(err) return res.send(err)
 
-            res.send('book added!')
+            res.send('player added!')
         })
     })
 })
@@ -27,10 +27,10 @@ routes.post('/', (req, res)=>{
 routes.delete('/:id', (req, res)=>{
     req.getConnection((err, conn)=>{
         if(err) return res.send(err)
-        conn.query('DELETE FROM books WHERE id = ?', [req.params.id], (err, rows)=>{
+        conn.query('DELETE FROM laliga WHERE id = ?', [req.params.id], (err, rows)=>{
             if(err) return res.send(err)
 
-            res.send('book excluded!')
+            res.send('player excluded!')
         })
     })
 })
@@ -38,10 +38,10 @@ routes.delete('/:id', (req, res)=>{
 routes.put('/:id', (req, res)=>{
     req.getConnection((err, conn)=>{
         if(err) return res.send(err)
-        conn.query('UPDATE books set ? WHERE id = ?', [req.body, req.params.id], (err, rows)=>{
+        conn.query('UPDATE laliga set ? WHERE id = ?', [req.body, req.params.id], (err, rows)=>{
             if(err) return res.send(err)
 
-            res.send('book updated!')
+            res.send('player updated!')
         })
     })
 })
