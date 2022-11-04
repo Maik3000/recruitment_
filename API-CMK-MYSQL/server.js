@@ -8,7 +8,7 @@ const dbOptions = {
     host: 'localhost',
     port: 3306,
     user: 'root',
-    password: 'Lolipop1!',
+    password: 'Password@123',
     database: 'players'
 }
 
