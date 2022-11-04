@@ -5,7 +5,7 @@ import { InfoSection } from '../../components';
 function Players() {
   return (
     
-    <d1> PLAYERSsssss</d1>
+    <d1> PLAYERS</d1>
 
     
   );
