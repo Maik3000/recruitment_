@@ -16,7 +16,7 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  primary: true,
+  primary: false,
   lightBg: false,
   lightTopLine: true,
   lightText: true,
