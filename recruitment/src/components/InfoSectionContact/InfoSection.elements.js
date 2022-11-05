@@ -22,7 +22,7 @@ export const InfoColumn = styled.div`
   max-width: 50%;
   flex-basis: 50%;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
     max-width: 100%;
     flex-basis: 100%;
     display: flex;
@@ -31,7 +31,7 @@ export const InfoColumn = styled.div`
 `;
 
 export const TextWrapper = styled.div`
-  max-width: 540px;
+  max-width: 100px;
   padding-top: 0;
   padding-bottom: 60px;
 
