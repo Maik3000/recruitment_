@@ -1,7 +1,6 @@
 import React from 'react';
-import { GiBookStorm } from 'react-icons/gi';
 
-const PlayersList = (players) => {
+const PlayersList = ({laliga}) => {
     return (
         <table className="table">
             <thead>
@@ -10,23 +9,24 @@ const PlayersList = (players) => {
                     <th>nombre</th>
                     <th>equipo</th>
                     <th>posicion</th>
-                    <th>nacionalidad</th>
                     <th>edad</th>
+                    <th>nacionalidad</th>
+                    <th>Valor</th>
                     
                 </tr>
             </thead>
             <tbody>
-                {players.map(player => (
-                    <tr key={player.id}>
-                        <th>{player.ID}</th>
-                        <th>{player.nombre}</th>
-                        <th>{player.equipo}</th>
-                        <th>{player.posicion}</th>
-                        <th>{player.nacionalidad}</th>
-                        <th>{player.edad}</th>
+                {laliga.map(liga => (
+                    <tr key={liga.id}>
+                        <th>{liga.id}</th>
+                        <th>{liga.nombre}</th>
+                        <th>{liga.equipo}</th>
+                        <th>{liga.posicion}</th>
+                        <th>{liga.edad}</th>
+                        <th>{liga.nacionalidad}</th>
+                        <th>{liga.valor}</th>
                     
                 </tr>
-
                 ))}
                 
             </tbody>

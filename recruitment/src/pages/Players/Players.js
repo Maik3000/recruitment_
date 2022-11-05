@@ -5,7 +5,7 @@ import { Fragment } from 'react';
 
 function Players() {
 
-  const [players, setPlayers] = useState([])
+  const [laliga, setPlayers] = useState([])
 
   useEffect(() => {
     const getPlayers = () => {
@@ -23,7 +23,7 @@ function Players() {
           <div className="row">
             <div className="col-7">
               <h2 style={{textAlign: 'center'}}>Player List</h2>
-              <PlayersList players={players}/>
+              <PlayersList laliga={laliga}/>
             </div>
             <div className="col-5">
               <h2 style={{textAlign: 'center'}}>Player Form</h2>
