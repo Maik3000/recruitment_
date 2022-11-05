@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { InfoSection } from '../../components';
 import { PlayersList } from '../../components';
 import { Fragment } from 'react';
+import { Button } from '../../globalStyles';
 
 function Players() {
 

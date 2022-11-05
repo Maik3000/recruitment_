@@ -1,36 +1,51 @@
 import React from 'react';
+import {
+    TableContainer, 
+    Table,
+    TableHead,
+    TableBody,
+    TableRow,
+    TableCell
+} from '@material-ui/core';
+
+
 
 const PlayersList = ({laliga}) => {
     return (
-        <table className="table">
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>nombre</th>
-                    <th>equipo</th>
-                    <th>posicion</th>
-                    <th>edad</th>
-                    <th>nacionalidad</th>
-                    <th>Valor</th>
+        
+         <div className="table">
+        <TableContainer>
+         <Table>
+            <TableHead>
+                <TableRow>
+                    <TableCell>ID</TableCell>
+                    <TableCell>nombre</TableCell>
+                    <TableCell>equipo</TableCell>
+                    <TableCell>posicion</TableCell>
+                    <TableCell>edad</TableCell>
+                    <TableCell>nacionalidad</TableCell>
+                    <TableCell>Valor(En MM de €) </TableCell>
                     
-                </tr>
-            </thead>
-            <tbody>
+                </TableRow>
+            </TableHead>
+            <TableBody>
                 {laliga.map(liga => (
-                    <tr key={liga.id}>
-                        <th>{liga.id}</th>
-                        <th>{liga.nombre}</th>
-                        <th>{liga.equipo}</th>
-                        <th>{liga.posicion}</th>
-                        <th>{liga.edad}</th>
-                        <th>{liga.nacionalidad}</th>
-                        <th>{liga.valor}</th>
+                    <TableRow key={liga.id}>
+                        <TableCell>{liga.id}</TableCell>
+                        <TableCell>{liga.nombre}</TableCell>
+                        <TableCell>{liga.equipo}</TableCell>
+                        <TableCell>{liga.posicion}</TableCell>
+                        <TableCell>{liga.edad}</TableCell>
+                        <TableCell>{liga.nacionalidad}</TableCell>
+                        <TableCell align="center">{liga.valor}</TableCell>
                     
-                </tr>
+                </TableRow>
                 ))}
                 
-            </tbody>
-        </table>
+            </TableBody>
+        </Table>
+        </TableContainer>
+        </div>
     );
 }
 export default PlayersList;
