@@ -26,10 +26,7 @@ function Players() {
               <h2 style={{textAlign: 'center'}}>Player List</h2>
               <PlayersList laliga={laliga}/>
             </div>
-            <div className="col-5">
-              <h2 style={{textAlign: 'center'}}>Player Form</h2>
-              
-            </div>
+
           </div>
         </div>
       </Fragment>
