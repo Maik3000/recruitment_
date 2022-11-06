@@ -50,7 +50,7 @@ function Footer() {
             <FooterLink to='/sign-up'>How it works</FooterLink>
             <FooterLink to='/'>Testimonials</FooterLink>
             <FooterLink to='/'>Investors</FooterLink>
-            <FooterLink to='/'>Terms of Service</FooterLink>
+            <FooterLink to='/Terms'>Terms of Service</FooterLink>
           </FooterLinkItems>
 
         </FooterLinksWrapper>
