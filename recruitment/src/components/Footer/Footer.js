@@ -48,8 +48,6 @@ function Footer() {
           <FooterLinkItems>
             <FooterLinkTitle>About Us</FooterLinkTitle>
             <FooterLink to='/sign-up'>How it works</FooterLink>
-            <FooterLink to='/'>Testimonials</FooterLink>
-            <FooterLink to='/'>Investors</FooterLink>
             <FooterLink to='/Terms'>Terms of Service</FooterLink>
           </FooterLinkItems>
 
@@ -59,8 +57,6 @@ function Footer() {
             <FooterLinkTitle>Contact Us</FooterLinkTitle>
             <FooterLink to='/Contact'>Contact Us</FooterLink>
             <FooterLink to='/'>Support</FooterLink>
-            <FooterLink to='/'>Destinations</FooterLink>
-            <FooterLink to='/'>Sponsorships</FooterLink>
           </FooterLinkItems>
   
         </FooterLinksWrapper>

@@ -3,14 +3,10 @@ import { Link } from 'react-router-dom';
 import { Container, Button } from '../../globalStyles';
 import {
   InfoSec,
-  InfoRow,
-  InfoColumn,
-  TextWrapper,
   TopLine,
   Heading,
   Subtitle,
-  ImgWrapper,
-  Img
+
 } from './InfoSection.elements';
 
 function InfoSectionTerms({
@@ -31,10 +27,6 @@ function InfoSectionTerms({
   description7,
   description8,
   description9,
-  img,
-  alt,
-  imgStart,
-  start
 }) {
   return (
     <>
